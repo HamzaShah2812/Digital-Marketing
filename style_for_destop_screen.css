@@ -1,0 +1,1432 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Plus Jakarta Sans;
+}
+
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                url('img/a36950329e8f961dba5a2a0972d8bba9.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vmax;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vmax;
+    margin: 1.5vmax 0vmax 1vmax 5vmax;
+}
+
+.logo img{
+    width: 2vmax;
+    height: 2vmax;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2vmax;
+    margin-left: 3vmax;
+    margin-top: 0.5vmax;
+}
+
+.menu a{
+    font-size: 0.8vmax;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    font-size: 0.8vmax;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vmax;
+    margin-top: 0.5vmax;
+    margin-left: 40vmax;
+    margin-right: 5vmax;
+    
+}
+
+.nav-buttons .get-started{
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 2vmax;
+    border-width: 0.12vmax;
+    height: 2.5vmax;
+    width: 8vmax;
+    cursor: pointer;
+    font-size: 0.8vmax;
+    font-weight: 500;
+}
+
+.nav-buttons .get-started:hover{
+    background-color: black;
+    border: solid;
+    color: white;
+    border-color: black;
+    border-radius: 2vmax;
+    border-width: 0.12vmax;
+    height: 2.5vmax;
+    width: 8vmax;
+    cursor: pointer;
+    font-size: 0.8vmax;
+    font-weight: 500;
+}
+
+.nav-buttons .notification i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2vmax;
+    transition: 0.15s;
+}
+
+.nav-buttons .notification i:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2vmax;
+}
+
+.nav-buttons .notification{
+    background-color: black;
+    color: black;
+    border: none;
+    border-radius: 2vmax;
+    height: 2.5vmax;
+    width: 2.5vmax;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.nav-buttons .notification:hover{
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 0.12vmax;
+    border-radius: 2vmax;
+    height: 2.5vmax;
+    width: 2.5vmax;
+    cursor: pointer;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    gap: 15vmax;
+    margin-top: 5vmax;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmax;
+    width: 40vmax;
+}
+
+.hero-text h1{
+    font-size: 4.5vmax;
+    font-weight: 600;
+}
+
+.hero-text p{
+    font-size: 1vmax;
+    color: rgba(135, 140, 145, 1);
+}
+
+.hero-text .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vmax;
+}
+
+.hero-text .buttons .call{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 10vmax;
+    height: 2.5vmax;
+    border-radius: 2vmax;
+    font-size: 0.85vmax;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.hero-text .buttons .call:hover{
+    border: solid;
+    border-width: 0.15vmax;
+    background-color: white;
+    color: black;
+    width: 10vmax;
+    height: 2.5vmax;
+    border-radius: 2vmax;
+    border-color: black;
+    font-size: 0.85vmax;
+    cursor: pointer;
+}
+
+.hero-text .buttons .case-study{
+    border: none;
+    background-color: transparent;
+    font-size: 0.7vmax;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero-text .trust{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vmax;
+    margin-top: 2vmax;
+}
+
+.trust p{
+    font-size: 0.8vmax;
+    font-weight: 600;
+    color: black;
+    margin-right: 2vmax;
+}
+
+.hero-text .trust img{
+    width: 7vmax;
+    height: 2.5vmax;
+    object-fit: contain;
+}
+
+.hero-image{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax;
+    margin-top: 2.2vmax;
+    margin-left: 4vmax;
+}
+
+.hero-image .one{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+}
+
+.hero-image .first{
+    width: 15vmax;
+    height: 15vmax;
+    background-image: url(img/ee749d51337169f1b4679d60e5480fb0.png);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20vmax;
+    border-bottom-left-radius: 1vmax;
+    border-top-right-radius: 1vmax;
+    border-bottom-right-radius: 2vmax;
+}
+
+.hero-image .second{
+    width: 15vmax;
+    height: 15vmax;
+    background-color: rgba(240, 240, 240, 1);
+    border-radius: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image .second h1{
+    font-size: 4.5vmax;
+    margin-top: 0.8vmax;
+    
+}
+
+.hero-image .second p{
+    font-size: 1vmax;
+    color: rgba(92, 93, 95, 1);
+    margin-left: 1.7vmax;
+    margin-right: 2vmax;
+}
+
+.hero-image .line {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vmax;
+    margin-left: 1.7vmax;
+    margin-right: 2vmax;
+    
+}
+
+.hero-image .line .black{
+    width: 7vmax;
+    height: 0.35vmax;
+    background-color: black;
+}
+
+.hero-image .line .grey{
+    width: 4vmax;
+    height: 0.35vmax;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.hero-image .two{
+    width: 31vmax;
+    height: 12vmax;
+    border-radius: 1vmax;
+    background-image: url(img/e3e40d481d271a4e45fcd0fb7d2b23f2.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-image .two .two-heading{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+    margin-top: 3vmax;
+    margin-left: 2vmax;
+    align-items: center;
+    font-size: 0.7vmax;
+}
+
+.hero-image .two .two-line{
+    width: 3vmax;
+    height: 0.1vmax;
+    background-color: white;
+}
+
+.hero-image .two .two-text{
+    margin-left: 2vmax;
+    width: 15vmax;
+    font-size: 1.5vmax;
+}
+
+.two-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmax;
+}
+
+.two-bar-section {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+}
+
+.two-bar-section .first-bar{
+    width: 4vmax;
+    height: 5vmax;
+    background-color: rgba(186, 226, 137, 1);
+    margin-top: 7vmax;
+}
+
+.two-bar-section .second-bar{
+    width: 4vmax;
+    height: 7vmax;
+    background-color: rgba(153, 207, 99, 1);
+    margin-top: 5vmax;
+}
+
+.two-bar-section .third-bar{
+    width: 4vmax;
+    height: 8.5vmax;
+    background-color: rgba(119, 178, 72, 1);
+    margin-top: 3.5vmax;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3vmax;
+}
+
+.first-section .text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vmax;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+    gap: 10vmax;
+    align-items: center;
+}
+
+.first-section .text .heading{
+    font-size: 2.5vmax;
+    font-weight: 600;
+    width: 50vmax;
+}
+
+.first-section .text .para{
+    font-size: 1vmax;
+    color: rgba(135, 140, 145, 1);
+    width: 45vmax;
+}
+
+.first-section .images{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+    gap: 2vmax;
+}
+
+.first-section .images .first-image{
+    width: 30vmax;
+    height: 25vmax;
+    background-image: url(img/e3e40d481d271a4e45fcd0fb7d2b23f2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2vmax;
+}
+
+.first-section .images .second-image{
+    width: 65vmax;
+    height: 25vmax;
+    background-image: url(img/9e9b8918fc876a6c4e2011a601647fa6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2vmax;
+}
+
+.first-section .images .second-image h1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-size: 2.5vmax;
+    font-weight: 600;
+    line-height: 3vmax;
+    letter-spacing: 0.8vmax;
+    margin-top: 10vmax;
+}
+
+.first-section .images .first-image h1{
+    color: white;
+    font-size: 4.3vmax;
+    margin-top: 1.5vmax;
+    margin-left: 1.5vmax;
+}
+
+.first-section .images .first-image p{
+    color: rgba(135, 140, 145, 1);
+    margin-top: 0.7vmax;
+    margin-left: 1.5vmax;
+    font-size: 1vmax;
+}
+
+.first-section .images .first-image span{
+    color: rgba(153, 207, 99, 1);
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vmax;
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+    width: 95vmax;
+    height: 57vmax;
+    border-radius: 2vmax;
+    background-image: url(img/e3e40d481d271a4e45fcd0fb7d2b23f2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-section .heading .text h1{
+    font-size: 3vmax;
+    font-weight: 500;
+    color: white;
+    margin-top: 4vmax;
+    margin-left: 3vmax;
+    margin-right: 3vmax;
+    text-align: center;
+}
+
+.second-section .heading .options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmax;
+    margin-top: 4vmax;
+}
+
+.second-section .heading .options .work{
+    width: 15vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    font-size: 0.8vmax;
+    color: white;
+    background-color: transparent;
+    transition: 0.15s;
+}
+
+.second-section .heading .options .work:hover{
+    width: 15vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    font-size: 0.8vmax;
+    color: black;
+    background-color: rgba(153, 207, 99, 1);
+}
+
+.second-section .heading .options .design{
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    color: white;
+    background-color: transparent;
+    transition: 0.15s;
+}
+
+.second-section .heading .options .design:hover{
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    color: black;
+    background-color: rgba(153, 207, 99, 1);
+}
+
+.second-section .heading .options .digital{
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    color: white;
+    background-color: transparent;
+    transition: 0.15s;
+}
+
+.second-section .heading .options .digital:hover{
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    color: black;
+    background-color: rgba(153, 207, 99, 1);
+}
+
+.second-section .heading .options .Branding{
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    color: white;
+    background-color: transparent;
+}
+
+.second-section .heading .options .Branding:hover{
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 2vmax;
+    color: black;
+    background-color:  rgba(153, 207, 99, 1);
+}
+
+.second-section .cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vmax;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+    gap: 2vmax;
+}
+
+.second-section .cards .circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25vmax;
+    height: 25vmax;
+    border: solid;
+    border-width: 0.5vmax;
+    border-color:  rgb(145, 145, 145);
+    border-radius: 15vmax;
+    background-color: rgba(195, 195, 195, 1);
+    background-image: url(img/d266fdae1bfdd361111f723e6016d607.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(36, 36, 36, 0.45);
+}
+
+.second-section .cards .circle .green-button{
+    width: 8vmax;
+    height: 8vmax;
+    background-color: rgba(153, 234, 72, 1);
+    border-radius: 4vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second-section .cards .circle .green-button button{
+    border: none;
+    width: 8vmax;
+    height: 8vmax;
+    background-color: rgba(153, 234, 72, 1);
+    border-radius: 4vmax;
+    font-size: 0.9vmax;
+    font-weight: 500;
+    cursor: pointer;
+
+} 
+
+.second-section .cards .AI-card {
+    display: flex;
+    flex-direction: column;
+    width: 25vmax;
+    height: 25vmax;
+    border-radius: 2vmax;
+    border: solid;
+    border-width: 0.5vmax;
+    border-color:  rgb(145, 145, 145);
+    background-image: url(img/697c6e3fbad8ab265381d2b23e20f934.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(36, 36, 36, 0.45);
+}
+
+.second-section .cards .AI-card .AI-card-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 19vmax;
+    margin: 1.5vmax 1.5vmax;
+}
+
+.second-section .cards .AI-card .AI-card-text .line{
+    width: 3vmax;
+    height: 0.1vmax;
+    background-color: white;
+}
+
+.second-section .cards .AI-card .AI-card-text .heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vmax;
+    font-size: 0.9vmax;
+    font-weight: 600;
+}
+
+.second-section .cards .AI-card .AI-card-text .detail{
+    font-size: 1.2vmax;
+    font-weight: 600;
+}
+
+.second-section .cards .app-card{
+    display: flex;
+    flex-direction: column;
+    width: 25vmax;
+    height: 25vmax;
+    border-radius: 2vmax;
+    border: solid;
+    border-width: 0.5vmax;
+    border-color:  rgb(145, 145, 145);
+    background-image: url(img/02987f8bf3cc65c32c95ddc64731abfd.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(105, 105, 105, 0.45);
+}
+
+.second-section .cards .app-card .app-card-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 19vmax;
+    margin: 1.5vmax 1.5vmax;
+}
+
+.second-section .cards .app-card .app-card-text .line{
+    width: 3vmax;
+    height: 0.1vmax;
+    background-color: white;
+}
+
+.second-section .cards .app-card .app-card-text .heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vmax;
+    font-size: 0.9vmax;
+    font-weight: 600;
+}
+
+.second-section .cards .app-card .app-card-text .detail{
+    font-size: 1.2vmax;
+    font-weight: 600;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    margin: 5vmax 5vmax;
+}
+
+.testimonial .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vmax;
+    font-weight: 600;
+    margin-top: 5vmax;
+}
+
+.testimonial .detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 59vmax;
+    margin-top: 3.5vmax;
+}
+
+.testimonial .detail .profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vmax;
+}
+
+.testimonial .detail .profile .photo{
+    width: 3.5vmax;
+    height: 3.5vmax;
+    background-color: rgba(161, 161, 161, 0.5);
+    border-radius: 1.75vmax;
+}
+
+.testimonial .detail .profile .user .name{
+    font-size: 1.1vmax;
+    font-weight: 700;
+}
+
+.testimonial .detail .profile .user .details{
+    font-size: 0.8vmax;
+    font-weight: 500;
+    color: rgba(135, 140, 145, 1);
+}
+
+.testimonial .detail .navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5vmax;
+}
+
+.testimonial .detail .navigation .left{
+    width: 3.5vmax;
+    height: 2.5vmax;
+    border-width: 0.1vmax;
+    background-color: transparent;
+    font-size: 1vmax;
+    border-radius: 1.5vmax;
+    transition: 0.15s;
+}
+
+.testimonial .detail .navigation .left:hover{
+    width: 3.5vmax;
+    height: 2.5vmax;
+    border-width: 0.1vmax;
+    background-color: black;
+    color: white;
+    border-radius: 1.5vmax;
+}
+
+.testimonial .detail .navigation p{
+    font-size: 1vmax;
+}
+
+
+.testimonial .detail .navigation span{
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.testimonial .detail .navigation .right{
+    width: 3.5vmax;
+    height: 2.5vmax;
+    border-width: 0.1vmax;
+    background-color: transparent;
+    font-size: 1vmax;
+    border-radius: 1.5vmax;
+    transition: 0.15s;
+}
+
+.testimonial .detail .navigation .right:hover{
+    width: 3.5vmax;
+    height: 2.5vmax;
+    border-width: 0.1vmax;
+    background-color: black;
+    border-radius: 1.5vmax;
+    color: white;
+}
+
+.FAQs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+    width: 95vmax;
+    height: 40vmax;
+    gap: 17vmax;
+    border-radius: 2vmax;
+    background-color: white;
+}
+
+.FAQs .faq-heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vmax;
+    padding-left: 5vmax;
+    gap: 2vmax;
+    height: 33vmax;
+    width: 30vmax;
+}
+
+.FAQs .faq-heading .text h1{
+    font-size: 2.6vmax;
+    font-weight: 600;
+    margin-bottom: 1.5vmax;
+}
+
+.FAQs .faq-heading .text p{
+    font-size: 1vmax;
+    font-weight: 500;
+    color: rgba(135, 140, 145, 1);
+}
+
+.FAQs .faq-heading .faq-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+}
+
+.FAQs .faq-heading .faq-buttons .more{
+    width: 10vmax;
+    height: 3.5vmax;
+    background: none;
+    border: solid; 
+    border-width: 0.15vmax;
+    border-radius: 2vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.FAQs .faq-heading .faq-buttons .more:hover{
+    width: 10vmax;
+    height: 3.5vmax;
+    background-color: black;
+    color: white;
+    border: solid; 
+    border-width: 0.15vmax;
+    border-radius: 2vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.FAQs .faq-heading .faq-buttons .contact{
+    width: 10vmax;
+    height: 3.5vmax;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.FAQs .questions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vmax;
+    height: 35vmax;
+    width: 35vmax;
+}
+
+.FAQs .questions hr{
+    height: 0.08vmax;
+    background-color: black;
+    border: none;
+}
+
+.FAQs .questions .q1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax; 
+}
+
+.FAQs .questions .q1 .q{
+    font-size: 1.3vmax;
+    font-weight: 600;
+    padding: 1vmax 1vmax;
+}
+
+.FAQs .questions .q1 .ans{
+    font-size: 1vmax;
+    font-weight: 500;
+    padding: 0vmax 1vmax 1vmax 1vmax;
+    color: rgba(135, 140, 145, 1);
+}
+
+.FAQs .questions .q2 .q{
+    font-size: 1.3vmax;
+    font-weight: 600;
+    padding: 1vmax 1vmax;
+}
+
+.FAQs .questions .q3 .q{
+    font-size: 1.3vmax;
+    font-weight: 600;
+    padding: 1vmax 1vmax;
+}
+
+.FAQs .questions .q4 .q{
+    font-size: 1.3vmax;
+    font-weight: 600;
+    padding: 1vmax 1vmax;
+}
+
+.reading-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reading-section .reading-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5vmax;
+    gap: 15vmax;
+}
+
+.reading-section .reading-heading .reading-left h1{
+    font-size: 2.5vmax;
+    width: 35vmax;
+}
+
+.reading-section .reading-heading .reading-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vmax;
+    font-size: 0.9vmax;
+    color: rgba(135, 140, 145, 1);
+    width: 40vmax;
+    line-height: 1.5vmax;
+}
+
+.reading-section .reading-heading .reading-right .see{
+    width: 8.5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.15vmax;
+    border-radius: 2vmax;
+    background-color: transparent;
+    transition: 0.15s;
+    font-size: 1vmax;
+}
+
+.reading-section .reading-heading .reading-right .see:hover{
+    width: 8.5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.15vmax;
+    border-radius: 2vmax;
+    background-color: black;
+    color: white;
+}
+
+.reading-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 7vmax;
+    margin-top: 5vmax;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+}
+
+.reading-cards .card1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vmax;
+    background-color: white;
+    width: 25vmax;
+    height: 17vmax;
+    gap: 0.8vmax;
+}
+
+.reading-cards .card1 .time{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vmax;
+    gap: 17vmax;
+}
+
+.reading-cards .card1 .time .dot{
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 0.5vmax;
+    background-color: rgba(69, 167, 222, 1);
+}
+
+.reading-cards .card1 .time .timer{
+    font-size: 0.8vmax;
+    color: rgba(135, 140, 145, 1);
+}
+
+.reading-cards .card1 .card1-heading h1{
+    font-size: 1.5vmax;
+    line-height: 2vmax;
+    color: rgba(1, 2, 5, 1);
+    margin: 0vmax 1.5vmax;
+}
+
+.reading-cards .card1 .card1-details{
+    display: flex;
+    flex-direction: row;
+    margin: 0.6vmax 1.5vmax;
+    gap: 4vmax;
+    align-items: center;
+}
+
+.reading-cards .card1 .card1-details p{
+    font-size: 0.8vmax;
+    color: rgba(135, 140, 145, 1);
+    width: 13vmax;
+    line-height: 1.1vmax;
+}
+
+.reading-cards .card1 .card1-details button{
+    width: 5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: transparent;
+    font-size: 1vmax;
+    transition: 0.15s;
+}
+
+.reading-cards .card1 .card1-details button:hover{
+    width: 5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: black;
+    color: white;
+    font-size: 1vmax;
+}
+
+
+
+
+.reading-cards .card2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vmax;
+    background-color: white;
+    width: 25vmax;
+    height: 17vmax;
+    gap: 0.8vmax;
+}
+
+.reading-cards .card2 .time{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vmax;
+    gap: 17vmax;
+}
+
+.reading-cards .card2 .time .dot{
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 0.5vmax;
+    background-color: rgba(234, 95, 56, 1);
+}
+
+.reading-cards .card2 .time .timer{
+    font-size: 0.8vmax;
+    color: rgba(135, 140, 145, 1);
+}
+
+.reading-cards .card2 .card2-heading h1{
+    font-size: 1.5vmax;
+    line-height: 2vmax;
+    color: rgba(1, 2, 5, 1);
+    margin: 0vmax 1.5vmax;
+}
+
+.reading-cards .card2 .card2-details{
+    display: flex;
+    flex-direction: row;
+    margin: 0.6vmax 1.5vmax;
+    gap: 4vmax;
+    align-items: center;
+}
+
+.reading-cards .card2 .card2-details p{
+    font-size: 0.8vmax;
+    color: rgba(135, 140, 145, 1);
+    width: 13vmax;
+    line-height: 1.1vmax;
+}
+
+.reading-cards .card2 .card2-details button{
+    width: 5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: transparent;
+    font-size: 1vmax;
+    transition: 0.15s;
+}
+
+.reading-cards .card2 .card2-details button:hover{
+    width: 5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: black;
+    color: white;
+    font-size: 1vmax;
+}
+
+
+
+.reading-cards .card3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vmax;
+    background-color: white;
+    width: 25vmax;
+    height: 17vmax;
+    gap: 0.8vmax;
+}
+
+.reading-cards .card3 .time{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vmax;
+    gap: 17vmax;
+}
+
+.reading-cards .card3 .time .dot{
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 0.5vmax;
+    background-color: rgba(106, 38, 241, 1);
+}
+
+.reading-cards .card3 .time .timer{
+    font-size: 0.8vmax;
+    color: rgba(135, 140, 145, 1);
+}
+
+.reading-cards .card3 .card3-heading h1{
+    font-size: 1.5vmax;
+    line-height: 2vmax;
+    color: rgba(1, 2, 5, 1);
+    margin: 0vmax 1.5vmax;
+}
+
+.reading-cards .card3 .card3-details{
+    display: flex;
+    flex-direction: row;
+    margin: 0.6vmax 1.5vmax;
+    gap: 4vmax;
+    align-items: center;
+}
+
+.reading-cards .card3 .card3-details p{
+    font-size: 0.8vmax;
+    color: rgba(135, 140, 145, 1);
+    width: 13vmax;
+    line-height: 1.1vmax;
+}
+
+.reading-cards .card3 .card3-details button{
+    width: 5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: transparent;
+    font-size: 1vmax;
+    transition: 0.15s;
+}
+
+.reading-cards .card3 .card3-details button:hover{
+    width: 5vmax;
+    height: 3vmax;
+    border: solid;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: black;
+    color: white;
+    font-size: 1vmax;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vmax;
+}
+
+.footer .ready{
+    display: flex;
+    flex-direction: row;
+    width: 95vmax;
+    height: 13vmax;
+    margin: 2vmax;
+    background-image: url(img/e3e40d481d271a4e45fcd0fb7d2b23f2.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: left;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 2vmax;
+}
+
+.footer .ready .ready-text{
+    font-size: 4vmax;
+    font-weight: 600;
+    color: white;
+    padding-left: 3vmax;
+}
+
+.footer .ready .ready-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmax;
+    width: 12vmax;
+    height: 3vmax;
+    border: none;
+    border-radius: 1.5vmax;
+    background-color: white;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    margin-right: 3vmax;
+    transition: 0.15s;
+}
+
+.footer .ready .ready-button:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmax;
+    width: 12vmax;
+    height: 3vmax;
+    border: solid;
+    border-color: white;
+    border-width: 0.05vmax;
+    border-radius: 1.5vmax;
+    background-color: black;
+    color: white;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    margin-right: 3vmax;
+}
+
+.footer .footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vmax 5vmax 5vmax 5vmax;
+}
+
+.footer .footer-content .footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmax;
+    width: 30vmax;
+}
+
+.footer .footer-content .footer-left .footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vmax;
+}
+
+.footer .footer-content .footer-left .footer-logo img{
+   width: 2.5vmax;
+   height: 2.5vmax;
+}
+
+.footer .footer-content .footer-left .footer-left-text{
+    font-size: 0.8vmax;
+    font-weight: 400;
+    color: rgba(155, 155, 156, 1);
+    line-height: 1.2vmax;
+}
+
+.footer .footer-content .footer-left .footer-left-social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8vmax;
+    align-items: center;
+}
+
+.footer .footer-content .footer-left .footer-left-social-icons i{
+    font-size: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5vmax;
+    height: 1.5vmax;
+    border-radius: 1vmax;
+    background-color: white;
+}
+
+.footer .footer-content .footer-right{
+    display: flex;
+    flex-direction: row;
+    gap: 7vmax;
+    width: 40vmax;
+} 
+
+.footer .footer-content .footer-right .footer-right-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+    width: 9vmax;
+} 
+
+.footer .footer-content .footer-right .footer-right-nav h4{
+    font-size: 1.2vmax;
+} 
+
+.footer .footer-content .footer-right .footer-right-nav a{
+    font-size: 1vmax;
+    text-decoration: none;
+    color: rgba(155, 155, 156, 1);
+}
+
+.footer .footer-content .footer-right .footer-right-licence{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+    width: 9vmax;
+} 
+
+.footer .footer-content .footer-right .footer-right-licence h4{
+    font-size: 1.2vmax;
+}
+
+.footer .footer-content .footer-right .footer-right-licence a{
+    font-size: 1vmax;
+    text-decoration: none;
+    color: rgba(155, 155, 156, 1);
+}
+
+.footer .footer-content .footer-right .footer-right-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.footer .footer-content .footer-right .footer-right-contact h4{
+    font-size: 1.2vmax;
+}
+
+.footer .footer-content .footer-right h4{
+    margin-bottom: 1.5vmax;
+}
+
+.footer .footer-content .footer-right .footer-right-contact i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25vmax;
+    height: 1.25vmax;
+    font-size: 1.25vmax;
+}
+
+.footer .footer-content .footer-right .footer-right-contact p{
+
+    font-size: 1vmax;
+    text-decoration: none;
+    color: rgba(155, 155, 156, 1);
+}
+
+.footer .footer-content .footer-right .footer-right-contact .number{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+}
+
+.footer .footer-content .footer-right .footer-right-contact .number a{
+    font-size: 1vmax;
+    text-decoration: none;
+    color: rgba(155, 155, 156, 1);
+}
+
+.footer .footer-content .footer-right .footer-right-contact .email{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+}
+
+.footer .footer-content .footer-right .footer-right-contact .address{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+}
+
+
